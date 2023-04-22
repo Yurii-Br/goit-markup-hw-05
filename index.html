@@ -64,7 +64,9 @@
           <!-- title_text -->
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <!-- button_order_servis -->
-          <button type="button" class="order-btn">Order Service</button>
+          <button data-modal-open type="button" class="order-btn">
+            Order Service
+          </button>
         </div>
       </section>
       <!-- section_feature -->
@@ -472,6 +474,17 @@
         </div>
       </div>
     </footer>
+    <!-- modal-window -->
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal-window">
+        <button data-modal-close type="button" class="btn-modal">
+          <svg width="8" height="8">
+            <use href="./images/icon.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>
